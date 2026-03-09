@@ -5,7 +5,7 @@ An NLP-powered web app that analyzes how well a resume matches a job description
 ---
 
 ## 🚀 Live Demo
-> Deploy link here (add after Streamlit Cloud deployment)
+https://resume-jd-matcher-xvceypxast37ovonz2kvfz.streamlit.app/
 
 ---
 
