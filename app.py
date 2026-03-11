@@ -164,8 +164,10 @@ if st.button("Analyze Match", use_container_width=True):
             if result['missing_skills']:
                 for skill in sorted(result['missing_skills']):
                     st.error(skill)
-            else:
+            elif result['matched_skills']:
                 st.success("You have all the required skills! 🎉")
+            else:
+                st.warning("No skills detected in job description")
 
         st.divider()
 
